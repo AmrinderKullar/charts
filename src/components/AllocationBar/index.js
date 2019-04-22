@@ -30,9 +30,9 @@ class AllocationBar extends Component {
 		return (
 			<div className="allocationBarContainer" style={{ left: `${100 * data.left}px` }}>
 				<div id={`allocationBarWrapper${id}`} className="allocationBarWrapper" style={{ width: `${100 * data.span}px` }}>
-					<button onClick={() => {}}>{'<'}</button>
+					<button className="left-button" onClick={() => {}}>{'<'}</button>
 					<div>{data.percentage}</div>
-					<button className={`right-button${id}`}>{'>'}</button>
+					<button className={`right-button right-button${id}`}>{'>'}</button>
 				</div>
 			</div>
 		);

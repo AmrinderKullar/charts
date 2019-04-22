@@ -1,6 +1,7 @@
 .allocationBarContainer {
 	border: 1px solid transparent;
 	position: absolute;
+	top: 0;
 }
 
 .allocationBarWrapper {
@@ -11,7 +12,6 @@
 	background-color: #ffc600;
 	width: 98px;
 	color: white;
-	opacity: 1;
 }
 
 .emptyAllocationBarWrapper {
@@ -19,6 +19,12 @@
 	padding: 10px 0;
 }
 
-.hideAllocationBarWrapper {
-	opacity: 0;
+.left-button, .right-button {
+	background-color: transparent;
+	color: black;
+	height: inherit;
+	width: 10px;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
 }
