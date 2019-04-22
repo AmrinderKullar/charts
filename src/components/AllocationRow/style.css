@@ -1,0 +1,15 @@
+.allocationRowWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.dottedBackground {
+	position: absolute;
+    width: 1200px;
+    top: 19px;
+    left: 0;
+    border: dashed 1px #757575;
+    z-index: -1;
+}
