@@ -9,7 +9,7 @@ const AllocationPage = () => {
 			<div className="allocationPageWrapper">
 			<div className="">
 			{employeeData.map(emp => (
-				<AllocationRow weekName={weekName} employeeData={emp} />
+				<AllocationRow key={emp.id} weekName={weekName} employeeData={emp} />
 			))}
 				{/* <AllocationRow weekName={weekName} employeeData={employeeData} /> */}
 			</div>
