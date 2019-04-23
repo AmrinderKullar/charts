@@ -6,7 +6,7 @@ const employeeData = [
 		"employee_full_name": "Cauchy",
 		"total_allocated": 0,
 		"track_id": 1,
-		"employee_domain_title": "Consumer Insights",
+		"employee_domain_title": "COMM",
 		"logged_data": {
 			"Jun-18": {
 				"variance": 0,
@@ -83,7 +83,7 @@ const employeeData = [
 		"employee_full_name": "Robyn",
 		"total_allocated": 0,
 		"track_id": 1,
-		"employee_domain_title": "Consumer Insights",
+		"employee_domain_title": "COMM",
 		"logged_data": {
 			"Jun-18": {
 				"variance": 0,
@@ -171,8 +171,49 @@ const weekName = [
 	// "Jun-25"
 ];
 
-
+const userColors = [
+	{
+		comm: '#e35b5b',
+	},
+	{
+		xd: '#fc91a2',
+	},
+	{
+		tech: '#1994f7',
+	},
+	{
+		ba: '#00c4b3',
+	},
+	{
+		strat: '#ff7e51',
+	},
+	{
+		lt: '#9389e7',
+	},
+	{
+		qa: '#646be0',
+	},
+	{
+		cs: '#d78ad1',
+	},
+	{
+		ov: '#aea5a5',
+	},
+	{
+		pmo: '#ffc600',
+	},
+	{
+		ds: '#52d3e7',
+	},
+	{
+		bs: '#75e092',
+	},
+	{
+		pa: '#ec9a1e',
+	},
+];
 export {
 	employeeData,
 	weekName,
+	userColors,
 };

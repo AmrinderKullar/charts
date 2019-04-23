@@ -3,10 +3,11 @@
 }
 
 .allocationPageWrapper {
-	height: 200px;
+	/* height: 200px; */
 	width: 1200px;
 	border-bottom: 1px solid #757575;
 	border-left: 1px solid #757575;
+	border-right: 1px solid #757575;
 	position: relative;
 }
 
@@ -28,12 +29,12 @@
 	width: 100px;
 	display: flex;
 	align-items: flex-end;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	position: relative;
 }
 
 .allocationTagString {
 	position: absolute;
 	bottom: -20px;
-	right: -20px;
+	left: -20px;
 }

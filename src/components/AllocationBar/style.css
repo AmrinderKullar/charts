@@ -1,17 +1,18 @@
 .allocationBarContainer {
 	position: absolute;
-	top: 0;
-	border: 1px solid transparent;
+	top: 5px;
+	border: 1px solid white;
 }
 
 .allocationBarWrapper {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 0;
+	padding: 5px 0;
+	font-size: 12px;
 	background-color: #ffc600;
 	width: 98px;
-	color: white;
+	color: black;
 }
 
 .emptyAllocationBarWrapper {

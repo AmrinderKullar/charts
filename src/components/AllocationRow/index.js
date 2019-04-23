@@ -20,7 +20,6 @@ const getLeft = (allData) => {
 const AllocationRow = (props) => {
 	let newVal = [];
 	let localVar = {};
-	console.log(props);
  	props.weekName.map((val, index) => {
 		const dat = props.employeeData.logged_data[val];
 		if (!localVar.id) {
@@ -46,6 +45,7 @@ const AllocationRow = (props) => {
 				return null;
 			})}
 			<div className="dottedBackground" />
+			<div className="alloctionUserDomain">{props.employeeData.employee_domain_title}</div>
 		</div>
 	);
 }
